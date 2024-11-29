@@ -1,0 +1,17 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armJET.dll" 
+
+"E:\ANYLOAD PROJECTS\2018 Anyload Remote Display\Software Development LPC1764\063 Any\GettingStarted\Flash Debug\Exe\GettingStarted.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\debugger\NXP\LPC175x_LPC176x.dmac" 
+
+--macro "E:\ANYLOAD PROJECTS\2018 Anyload Remote Display\Software Development LPC1764\063 Any\GettingStarted\config\Flash.mac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\NXP\FlashNXPLPC128K_Cortex.board" 
+
+
+
+
