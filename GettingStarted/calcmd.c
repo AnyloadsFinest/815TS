@@ -21,8 +21,8 @@ const  int  ZEROTRKprm []={5,0,50,100,200,300}; // 0,0.5d,1.0d,2.0d,3.0d
 const  char ZEROTRKstr[][6] ={"   OFF","  0.5D","    1D","    2D","    3D"};  // displayed settings
 
 // values for zero range menu parameter P2.0
-const  int  ZERORANGEprm []={5,2,4,5,10,90}; // 2% ,10% ,90%
-const  char ZERORANGEstr[][6] ={"   2PC","   4PC","   5PC","  10PC","  90PC"};  // displayed settings
+const  int  ZERORANGEprm []={5,2,3,5,10,90}; // 2% ,10% ,90%
+const  char ZERORANGEstr[][6] ={"   2PC","   3PC","   5PC","  10PC","  90PC"};  // displayed settings
 
 // values for scale over P1.5
 const  int  SCLOVERprm[]={5,0,1,2,9,10}; // 0,off,1d,2d,2%

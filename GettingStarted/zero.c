@@ -393,7 +393,8 @@ static char ZSM=0;
               else
                if (zero_scale()==2)  // out of push button zero range
                {               
-                display_message( "--E1--",2);  // error outside of zero range               
+                display_message( " ERROR",0);  // error outside of zero range       
+                while(1);        
                 ZSM=2; 
                }              
             }

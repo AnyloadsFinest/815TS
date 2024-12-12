@@ -37,9 +37,11 @@ float fraction;
 
                         if ( SCALE.IZSM_ERROR==1 ) // check for scale over condition
                        {//10                               
-                            display_message( "--E4--",0);  
+                            display_message(" ERROR",0);  
                             update_status(1); // blank status display
                             output_display(0); // update seven segment display
+
+                            while(1); //Don't exit until device reboots
                             break; // break out of case statement
                         }//12
                                   
