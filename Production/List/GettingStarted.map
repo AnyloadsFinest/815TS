@@ -1,0 +1,1350 @@
+###############################################################################
+#
+# IAR ELF Linker V8.22.2.15995/W32 for ARM                13/Dec/2024  14:03:39
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\01 Hamid Projects\2021 Anyload Indicator 815TS\Software
+#        Development\129 Any 815 Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Exe\GettingStarted.out
+#    Map file     =  
+#        D:\01 Hamid Projects\2021 Anyload Indicator 815TS\Software
+#        Development\129 Any 815 Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\List\GettingStarted.map
+#    Command line =  
+#        -f C:\Users\Hamid\AppData\Local\Temp\EW74D5.tmp ("D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\ads1232.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\audit.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\calcmd.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\caltransfer.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\checkweigh.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\com_tic_read.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\cstartup_M.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\display.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\filter.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\FIR.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\flash.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\globles.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\gpio.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\irq.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\keypad.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\keyscan.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\main.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\menu.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\motion.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\peakhold.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\printing.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\prncode.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\rtc.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\spi.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\strings.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\sys.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\system_init.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\tare.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\target.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\ticcode.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\ticketedit.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\timedate.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\timer.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\uart.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\units.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\version control.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\wdt.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\weight.o" "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Obj\zero.o" -o "D:\01 Hamid
+#        Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815
+#        Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\Exe\GettingStarted.out" --map "D:\01
+#        Hamid Projects\2021 Anyload Indicator 815TS\Software Development\129
+#        Any 815 Sir Lanka\128 Any Robin\124 Any 815
+#        factory\GettingStarted\Production\List\GettingStarted.map" --config
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.0_2\arm\CONFIG\generic_cortex.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0007ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block PROC_STACK with size = 0M, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x2000ffff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                       0xcc
+  .intvec            ro code  0x00000000    0xcc  cstartup_M.o [1]
+                            - 0x000000cc    0xcc
+
+"P1":                                     0xb137
+  .text              ro code  0x000000cc  0x1f48  calcmd.o [1]
+  .text              ro code  0x00002014   0xbbc  sys.o [1]
+  .text              ro code  0x00002bd0   0x3a4  zero.o [1]
+  .text              ro code  0x00002f74   0x388  weight.o [1]
+  .text              ro code  0x000032fc    0xfc  FltDiv.o [4]
+  .text              ro code  0x000033f8   0x57c  system_init.o [1]
+  .text              ro code  0x00003974   0x338  filter.o [1]
+  .text              ro code  0x00003cac    0xf0  FIR.o [1]
+  .text              ro code  0x00003d9c   0x720  uart.o [1]
+  .text              ro code  0x000044bc   0x1d4  gpio.o [1]
+  .text              ro code  0x00004690   0x190  version control.o [1]
+  .text              ro code  0x00004820   0x318  timer.o [1]
+  .text              ro code  0x00004b38   0x6ac  display.o [1]
+  .text              ro code  0x000051e4   0x250  keypad.o [1]
+  .text              ro code  0x00005434    0x40  sprintf.o [3]
+  .text              ro code  0x00005474    0x1c  U32ToFlt.o [4]
+  .text              ro code  0x00005490    0xd8  FltMul.o [4]
+  .text              ro code  0x00005568    0x24  S32ToFlt.o [4]
+  .text              ro code  0x0000558c   0x240  flash.o [1]
+  .text              ro code  0x000057cc    0x1c  FltCmpEq.o [4]
+  .text              ro code  0x000057e8    0x22  S32ToDbl.o [4]
+  .text              ro code  0x0000580a     0xa  xsprout.o [3]
+  .text              ro code  0x00005814    0x20  DblCmpEq.o [4]
+  .text              ro code  0x00005834   0x246  DblDiv.o [4]
+  .text              ro code  0x00005a7a     0x2  cstartup_M.o [1]
+  .text              ro code  0x00005a7c    0xb8  modf.o [4]
+  .text              ro code  0x00005b34   0x1a2  DblMul.o [4]
+  .text              ro code  0x00005cd8    0x2a  FltToS32.o [4]
+  .text              ro code  0x00005d04    0xf8  audit.o [1]
+  .text              ro code  0x00005dfc    0x22  FltToU32.o [4]
+  .text              ro code  0x00005e20    0x24  FltCmpGe.o [4]
+  .text              ro code  0x00005e44    0x80  FltSub.o [4]
+  .text              ro code  0x00005ec4   0x108  tare.o [1]
+  .text              ro code  0x00005fcc   0x4b0  timedate.o [1]
+  .text              ro code  0x0000647c   0x47c  printing.o [1]
+  .text              ro code  0x000068f8     0xe  ticketedit.o [1]
+  .text              ro code  0x00006906     0x2  menu.o [1]
+  .text              ro code  0x00006908     0x8  labs.o [3]
+  .text              ro code  0x00006910    0x3a  DblToS32.o [4]
+  .text              ro code  0x0000694c    0x48  FltToDbl.o [4]
+  .text              ro code  0x00006994    0x68  DblToFlt.o [4]
+  .text              ro code  0x000069fc    0x24  FltCmpLe.o [4]
+  .text              ro code  0x00006a20   0x150  peakhold.o [1]
+  .text              ro code  0x00006b70   0xa28  units.o [1]
+  .text              ro code  0x00007598     0x2  checkweigh.o [1]
+  .text              ro code  0x0000759c   0x158  ads1232.o [1]
+  .text              ro code  0x000076f4    0x2e  DblCmpLe.o [4]
+  .text              ro code  0x00007724   0x178  DblAdd.o [4]
+  .text              ro code  0x0000789c    0x88  irq.o [1]
+  .text              ro code  0x00007924    0x86  ABImemcpy.o [5]
+  .text              ro code  0x000079ac    0x6c  spi.o [1]
+  .text              ro code  0x00007a18    0x5c  keyscan.o [1]
+  .text              ro code  0x00007a74   0x4d4  xprintfsmall_nomb.o [3]
+  .text              ro code  0x00007f48    0xd6  FltAdd.o [4]
+  .text              ro code  0x00008020    0x4c  strcpy.o [5]
+  .text              ro code  0x0000806c   0x174  iar_Stoulx.o [3]
+  .text              ro code  0x000081e0   0x5f8  ticcode.o [1]
+  .text              ro code  0x000087d8     0x2  prncode.o [1]
+  .text              ro code  0x000087dc  0x1328  strings.o [1]
+  .text              ro code  0x00009b04    0x2e  DblCmpGe.o [4]
+  .text              ro code  0x00009b34    0xd2  DblSub.o [4]
+  .text              ro code  0x00009c08    0x24  ABIassert.o [6]
+  .text              ro code  0x00009c2c    0x16  strchr.o [5]
+  .text              ro code  0x00009c44    0x40  xfail_s.o [3]
+  .text              ro code  0x00009c84    0x36  strlen.o [5]
+  .text              ro code  0x00009cbc    0x58  memchr.o [5]
+  .text              ro code  0x00009d14     0xc  toupper.o [3]
+  .text              ro code  0x00009d20     0xc  tolower.o [3]
+  .text              ro code  0x00009d2c     0x2  com_tic_read.o [1]
+  .text              ro code  0x00009d2e     0x6  abort.o [3]
+  .text              ro code  0x00009d34    0x14  exit.o [6]
+  .text              ro code  0x00009d48   0x320  target.o [1]
+  .rodata            const    0x0000a068    0x2c  calcmd.o [1]
+  .rodata            const    0x0000a098   0x238  FIR.o [1]
+  .rodata            const    0x0000a2d0   0x1b8  FIR.o [1]
+  .rodata            const    0x0000a488    0xe8  FIR.o [1]
+  .text              ro code  0x0000a570    0xc8  main.o [1]
+  .text              ro code  0x0000a638    0x7c  motion.o [1]
+  .rodata            const    0x0000a6b4    0x94  irq.o [1]
+  .rodata            const    0x0000a748    0x8c  timer.o [1]
+  .rodata            const    0x0000a7d4    0x24  calcmd.o [1]
+  .rodata            const    0x0000a7f8    0x88  FIR.o [1]
+  .rodata            const    0x0000a880    0x40  calcmd.o [1]
+  .text              ro code  0x0000a8c0    0x40  zero_init3.o [5]
+  .text              ro code  0x0000a900    0x38  packbits_init_single.o [5]
+  .text              ro code  0x0000a938    0x28  data_init.o [5]
+  .rodata            const    0x0000a960    0x24  calcmd.o [1]
+  .rodata            const    0x0000a984    0x24  calcmd.o [1]
+  .rodata            const    0x0000a9a8    0x24  calcmd.o [1]
+  .rodata            const    0x0000a9cc    0x24  calcmd.o [1]
+  .rodata            const    0x0000a9f0    0x24  strings.o [1]
+  .iar.init_table    const    0x0000aa14    0x20  - Linker created -
+  .rodata            const    0x0000aa34    0x20  calcmd.o [1]
+  .rodata            const    0x0000aa54    0x20  calcmd.o [1]
+  .rodata            const    0x0000aa74    0x20  calcmd.o [1]
+  .rodata            const    0x0000aa94    0x20  calcmd.o [1]
+  .rodata            const    0x0000aab4    0x20  calcmd.o [1]
+  .rodata            const    0x0000aad4    0x20  calcmd.o [1]
+  .rodata            const    0x0000aaf4    0x20  display.o [1]
+  .text              ro code  0x0000ab14    0x1e  cmain.o [5]
+  .text              ro code  0x0000ab32     0x4  low_level_init.o [3]
+  .text              ro code  0x0000ab36     0x4  exit.o [3]
+  .text              ro code  0x0000ab3c     0xa  cexit.o [5]
+  .rodata            const    0x0000ab48    0x1c  calcmd.o [1]
+  .rodata            const    0x0000ab64    0x1c  calcmd.o [1]
+  .rodata            const    0x0000ab80    0x1c  calcmd.o [1]
+  .rodata            const    0x0000ab9c    0x1c  calcmd.o [1]
+  .rodata            const    0x0000abb8    0x1c  calcmd.o [1]
+  .rodata            const    0x0000abd4    0x1c  calcmd.o [1]
+  .rodata            const    0x0000abf0    0x1c  calcmd.o [1]
+  .rodata            const    0x0000ac0c    0x1c  strings.o [1]
+  .rodata            const    0x0000ac28    0x1c  strings.o [1]
+  .rodata            const    0x0000ac44    0x18  calcmd.o [1]
+  .rodata            const    0x0000ac5c    0x18  calcmd.o [1]
+  .rodata            const    0x0000ac74    0x18  calcmd.o [1]
+  .rodata            const    0x0000ac8c    0x18  calcmd.o [1]
+  .rodata            const    0x0000aca4    0x18  calcmd.o [1]
+  .rodata            const    0x0000acbc    0x18  calcmd.o [1]
+  .rodata            const    0x0000acd4    0x18  calcmd.o [1]
+  .rodata            const    0x0000acec    0x18  strings.o [1]
+  .rodata            const    0x0000ad04    0x18  strings.o [1]
+  .rodata            const    0x0000ad1c    0x18  strings.o [1]
+  .rodata            const    0x0000ad34    0x18  strings.o [1]
+  .rodata            const    0x0000ad4c    0x18  timedate.o [1]
+  .rodata            const    0x0000ad64    0x18  timedate.o [1]
+  .rodata            const    0x0000ad7c    0x14  calcmd.o [1]
+  .rodata            const    0x0000ad90    0x14  calcmd.o [1]
+  .rodata            const    0x0000ada4    0x14  calcmd.o [1]
+  .rodata            const    0x0000adb8    0x14  strings.o [1]
+  .rodata            const    0x0000adcc    0x14  strings.o [1]
+  .rodata            const    0x0000ade0    0x14  strings.o [1]
+  .rodata            const    0x0000adf4    0x14  strings.o [1]
+  .rodata            const    0x0000ae08    0x14  strings.o [1]
+  .rodata            const    0x0000ae1c    0x14  strings.o [1]
+  .rodata            const    0x0000ae30    0x14  strings.o [1]
+  .rodata            const    0x0000ae44    0x14  timedate.o [1]
+  .rodata            const    0x0000ae58    0x10  calcmd.o [1]
+  .rodata            const    0x0000ae68    0x10  timedate.o [1]
+  .rodata            const    0x0000ae78    0x10  timedate.o [1]
+  .rodata            const    0x0000ae88    0x10  timedate.o [1]
+  .rodata            const    0x0000ae98    0x10  timedate.o [1]
+  .rodata            const    0x0000aea8    0x10  timedate.o [1]
+  .rodata            const    0x0000aeb8    0x10  timedate.o [1]
+  .rodata            const    0x0000aec8    0x10  timedate.o [1]
+  .rodata            const    0x0000aed8    0x10  timedate.o [1]
+  .rodata            const    0x0000aee8     0xc  calcmd.o [1]
+  .rodata            const    0x0000aef4     0xc  calcmd.o [1]
+  .rodata            const    0x0000af00     0xc  calcmd.o [1]
+  .rodata            const    0x0000af0c     0xc  calcmd.o [1]
+  .rodata            const    0x0000af18     0xc  calcmd.o [1]
+  .rodata            const    0x0000af24     0xc  calcmd.o [1]
+  .rodata            const    0x0000af30     0xc  strings.o [1]
+  .text              ro code  0x0000af3c     0xc  cstartup_M.o [5]
+  .rodata            const    0x0000af48     0x8  audit.o [1]
+  .rodata            const    0x0000af50     0x8  audit.o [1]
+  .rodata            const    0x0000af58     0x8  calcmd.o [1]
+  .rodata            const    0x0000af60     0x8  calcmd.o [1]
+  .rodata            const    0x0000af68     0x8  calcmd.o [1]
+  .rodata            const    0x0000af70     0x8  calcmd.o [1]
+  .rodata            const    0x0000af78     0x8  calcmd.o [1]
+  .rodata            const    0x0000af80     0x8  calcmd.o [1]
+  .rodata            const    0x0000af88     0x8  calcmd.o [1]
+  .rodata            const    0x0000af90     0x8  calcmd.o [1]
+  .rodata            const    0x0000af98     0x8  calcmd.o [1]
+  .rodata            const    0x0000afa0     0x8  calcmd.o [1]
+  .rodata            const    0x0000afa8     0x8  calcmd.o [1]
+  .rodata            const    0x0000afb0     0x8  calcmd.o [1]
+  .rodata            const    0x0000afb8     0x8  calcmd.o [1]
+  .rodata            const    0x0000afc0     0x8  calcmd.o [1]
+  .rodata            const    0x0000afc8     0x8  calcmd.o [1]
+  .rodata            const    0x0000afd0     0x8  calcmd.o [1]
+  .rodata            const    0x0000afd8     0x8  calcmd.o [1]
+  .rodata            const    0x0000afe0     0x8  calcmd.o [1]
+  .rodata            const    0x0000afe8     0x8  calcmd.o [1]
+  .rodata            const    0x0000aff0     0x8  calcmd.o [1]
+  .rodata            const    0x0000aff8     0x8  calcmd.o [1]
+  .rodata            const    0x0000b000     0x8  calcmd.o [1]
+  .rodata            const    0x0000b008     0x8  calcmd.o [1]
+  .rodata            const    0x0000b010     0x8  calcmd.o [1]
+  .rodata            const    0x0000b018     0x8  calcmd.o [1]
+  .rodata            const    0x0000b020     0x8  calcmd.o [1]
+  .rodata            const    0x0000b028     0x8  calcmd.o [1]
+  .rodata            const    0x0000b030     0x8  calcmd.o [1]
+  .rodata            const    0x0000b038     0x8  calcmd.o [1]
+  .rodata            const    0x0000b040     0x8  calcmd.o [1]
+  .rodata            const    0x0000b048     0x8  calcmd.o [1]
+  .rodata            const    0x0000b050     0x8  calcmd.o [1]
+  .rodata            const    0x0000b058     0x8  calcmd.o [1]
+  .rodata            const    0x0000b060     0x8  calcmd.o [1]
+  .rodata            const    0x0000b068     0x8  filter.o [1]
+  .rodata            const    0x0000b070     0x8  flash.o [1]
+  .rodata            const    0x0000b078     0x8  irq.o [1]
+  .rodata            const    0x0000b080     0x8  printing.o [1]
+  .rodata            const    0x0000b088     0x8  printing.o [1]
+  .rodata            const    0x0000b090     0x8  printing.o [1]
+  .rodata            const    0x0000b098     0x8  printing.o [1]
+  .rodata            const    0x0000b0a0     0x8  printing.o [1]
+  .rodata            const    0x0000b0a8     0x8  strings.o [1]
+  .rodata            const    0x0000b0b0     0x8  strings.o [1]
+  .rodata            const    0x0000b0b8     0x8  strings.o [1]
+  .rodata            const    0x0000b0c0     0x8  strings.o [1]
+  .rodata            const    0x0000b0c8     0x8  strings.o [1]
+  .rodata            const    0x0000b0d0     0x8  strings.o [1]
+  .rodata            const    0x0000b0d8     0x8  strings.o [1]
+  .rodata            const    0x0000b0e0     0x8  strings.o [1]
+  .rodata            const    0x0000b0e8     0x8  sys.o [1]
+  .rodata            const    0x0000b0f0     0x8  sys.o [1]
+  .rodata            const    0x0000b0f8     0x8  sys.o [1]
+  .rodata            const    0x0000b100     0x8  sys.o [1]
+  .rodata            const    0x0000b108     0x8  sys.o [1]
+  .rodata            const    0x0000b110     0x8  sys.o [1]
+  .rodata            const    0x0000b118     0x8  sys.o [1]
+  .rodata            const    0x0000b120     0x8  tare.o [1]
+  .rodata            const    0x0000b128     0x8  tare.o [1]
+  .rodata            const    0x0000b130     0x8  ticcode.o [1]
+  .rodata            const    0x0000b138     0x8  ticcode.o [1]
+  .rodata            const    0x0000b140     0x8  timedate.o [1]
+  .rodata            const    0x0000b148     0x8  timedate.o [1]
+  .rodata            const    0x0000b150     0x8  timedate.o [1]
+  .rodata            const    0x0000b158     0x8  timedate.o [1]
+  .rodata            const    0x0000b160     0x8  timedate.o [1]
+  .rodata            const    0x0000b168     0x8  timedate.o [1]
+  .rodata            const    0x0000b170     0x8  timedate.o [1]
+  .rodata            const    0x0000b178     0x8  timedate.o [1]
+  .rodata            const    0x0000b180     0x8  timedate.o [1]
+  .rodata            const    0x0000b188     0x8  zero.o [1]
+  .rodata            const    0x0000b190     0x8  zero.o [1]
+  .crp               ro code  0x0000b198     0x4  cstartup_M.o [1]
+  .rodata            const    0x0000b19c     0x0  zero_init3.o [5]
+  .rodata            const    0x0000b19c     0x0  packbits_init_single.o [5]
+  Initializer bytes  const    0x0000b19c    0x67  <for P2-1>
+                            - 0x0000b203  0xb137
+
+"P2", part 1 of 3:                          0x78
+  P2-1                        0x20000000    0x78  <Init block>
+    .data            inited   0x20000000    0x5c  display.o [1]
+    .data            inited   0x2000005c     0x8  version control.o [1]
+    .data            inited   0x20000064     0x8  version control.o [1]
+    .data            inited   0x2000006c     0x8  version control.o [1]
+    .data            inited   0x20000074     0x1  uart.o [1]
+    .data            inited   0x20000075     0x1  uart.o [1]
+    .data            inited   0x20000076     0x1  uart.o [1]
+    .data            inited   0x20000077     0x1  uart.o [1]
+                            - 0x20000078    0x78
+
+"P2", part 2 of 3:                        0x18a4
+  .bss               zero     0x20000078   0xf00  globles.o [1]
+  .bss               zero     0x20000f78   0x3fc  filter.o [1]
+  .bss               zero     0x20001374    0x14  globles.o [1]
+  .bss               zero     0x20001388   0x238  FIR.o [1]
+  .bss               zero     0x200015c0    0xb0  globles.o [1]
+  .bss               zero     0x20001670    0x8c  timer.o [1]
+  .bss               zero     0x200016fc    0x88  globles.o [1]
+  .bss               zero     0x20001784    0x78  filter.o [1]
+  .bss               zero     0x200017fc    0x30  display.o [1]
+  .bss               zero     0x2000182c    0x28  globles.o [1]
+  .bss               zero     0x20001854    0x28  timer.o [1]
+  .bss               zero     0x2000187c    0x18  ticcode.o [1]
+  .bss               zero     0x20001894     0xc  globles.o [1]
+  .bss               zero     0x200018a0     0xc  globles.o [1]
+  .bss               zero     0x200018ac     0x4  calcmd.o [1]
+  .bss               zero     0x200018b0     0x4  calcmd.o [1]
+  .bss               zero     0x200018b4     0x4  filter.o [1]
+  .bss               zero     0x200018b8     0x4  filter.o [1]
+  .bss               zero     0x200018bc     0x4  filter.o [1]
+  .bss               zero     0x200018c0     0x4  FIR.o [1]
+  .bss               zero     0x200018c4     0x4  FIR.o [1]
+  .bss               zero     0x200018c8     0x4  keypad.o [1]
+  .bss               zero     0x200018cc     0x4  motion.o [1]
+  .bss               zero     0x200018d0     0x4  peakhold.o [1]
+  .bss               zero     0x200018d4     0x4  peakhold.o [1]
+  .bss               zero     0x200018d8     0x4  strings.o [1]
+  .bss               zero     0x200018dc     0x4  strings.o [1]
+  .bss               zero     0x200018e0     0x4  strings.o [1]
+  .bss               zero     0x200018e4     0x4  strings.o [1]
+  .bss               zero     0x200018e8     0x4  timer.o [1]
+  .bss               zero     0x200018ec     0x4  timer.o [1]
+  .bss               zero     0x200018f0     0x4  uart.o [1]
+  .bss               zero     0x200018f4     0x4  uart.o [1]
+  .bss               zero     0x200018f8     0x4  uart.o [1]
+  .bss               zero     0x200018fc     0x4  uart.o [1]
+  .bss               zero     0x20001900     0x4  zero.o [1]
+  .bss               zero     0x20001904     0x4  xfail_s.o [3]
+  .bss               zero     0x20001908     0x1  display.o [1]
+  .bss               zero     0x20001909     0x1  display.o [1]
+  .bss               zero     0x2000190a     0x1  FIR.o [1]
+  .bss               zero     0x2000190b     0x1  gpio.o [1]
+  .bss               zero     0x2000190c     0x1  keypad.o [1]
+  .bss               zero     0x2000190d     0x1  strings.o [1]
+  .bss               zero     0x2000190e     0x1  strings.o [1]
+  .bss               zero     0x2000190f     0x1  strings.o [1]
+  .bss               zero     0x20001910     0x1  strings.o [1]
+  .bss               zero     0x20001911     0x1  strings.o [1]
+  .bss               zero     0x20001912     0x1  sys.o [1]
+  .bss               zero     0x20001913     0x1  uart.o [1]
+  .bss               zero     0x20001914     0x1  uart.o [1]
+  .bss               zero     0x20001915     0x1  uart.o [1]
+  .bss               zero     0x20001916     0x1  uart.o [1]
+  .bss               zero     0x20001917     0x1  zero.o [1]
+  .bss               zero     0x20001918     0x1  zero.o [1]
+  .bss               zero     0x20001919     0x1  zero.o [1]
+                            - 0x2000191a  0x18a2
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x20001920   0x400  <Block>
+    CSTACK           uninit   0x20001920   0x400  <Block tail>
+                            - 0x20001d20   0x400
+
+Absolute sections, part 1 of 48:             0x4
+  .noinit            uninit   0x2009c000     0x4  target.o [1]
+                            - 0x2009c004     0x4
+
+Absolute sections, part 2 of 48:            0x10
+  .noinit            uninit   0x2009c014     0x4  strings.o [1]
+  .noinit            uninit   0x2009c018     0x4  version control.o [1]
+  .noinit            uninit   0x2009c01c     0x4  uart.o [1]
+  .noinit            uninit   0x2009c020     0x4  target.o [1]
+                            - 0x2009c024    0x10
+
+Absolute sections, part 3 of 48:            0x10
+  .noinit            uninit   0x2009c034     0x4  keyscan.o [1]
+  .noinit            uninit   0x2009c038     0x4  target.o [1]
+  .noinit            uninit   0x2009c03c     0x4  version control.o [1]
+  .noinit            uninit   0x2009c040     0x4  target.o [1]
+                            - 0x2009c044    0x10
+
+Absolute sections, part 4 of 48:             0x8
+  .noinit            uninit   0x2009c054     0x4  gpio.o [1]
+  .noinit            uninit   0x2009c058     0x4  target.o [1]
+                            - 0x2009c05c     0x8
+
+Absolute sections, part 5 of 48:             0x4
+  .noinit            uninit   0x2009c060     0x4  target.o [1]
+                            - 0x2009c064     0x4
+
+Absolute sections, part 6 of 48:             0xc
+  .noinit            uninit   0x2009c078     0x4  version control.o [1]
+  .noinit            uninit   0x2009c07c     0x4  version control.o [1]
+  .noinit            uninit   0x2009c080     0x4  target.o [1]
+                            - 0x2009c084     0xc
+
+Absolute sections, part 7 of 48:             0x4
+  .noinit            uninit   0x2009c098     0x4  target.o [1]
+                            - 0x2009c09c     0x4
+
+Absolute sections, part 8 of 48:             0x8
+  .noinit            uninit   0x40004000     0x4  timer.o [1]
+  .noinit            uninit   0x40004004     0x4  timer.o [1]
+                            - 0x40004008     0x8
+
+Absolute sections, part 9 of 48:             0x4
+  .noinit            uninit   0x4000400c     0x4  timer.o [1]
+                            - 0x40004010     0x4
+
+Absolute sections, part 10 of 48:            0x8
+  .noinit            uninit   0x40004014     0x4  timer.o [1]
+  .noinit            uninit   0x40004018     0x4  timer.o [1]
+                            - 0x4000401c     0x8
+
+Absolute sections, part 11 of 48:            0x4
+  .noinit            uninit   0x40004070     0x4  timer.o [1]
+                            - 0x40004074     0x4
+
+Absolute sections, part 12 of 48:            0x8
+  .noinit            uninit   0x40008000     0x4  timer.o [1]
+  .noinit            uninit   0x40008004     0x4  timer.o [1]
+                            - 0x40008008     0x8
+
+Absolute sections, part 13 of 48:            0x4
+  .noinit            uninit   0x4000800c     0x4  timer.o [1]
+                            - 0x40008010     0x4
+
+Absolute sections, part 14 of 48:            0x8
+  .noinit            uninit   0x40008014     0x4  timer.o [1]
+  .noinit            uninit   0x40008018     0x4  timer.o [1]
+                            - 0x4000801c     0x8
+
+Absolute sections, part 15 of 48:            0x4
+  .noinit            uninit   0x40008070     0x4  timer.o [1]
+                            - 0x40008074     0x4
+
+Absolute sections, part 16 of 48:            0x1
+  .noinit            uninit   0x4000c000     0x1  uart.o [1]
+                            - 0x4000c001     0x1
+
+Absolute sections, part 17 of 48:            0x9
+  .noinit            uninit   0x4000c004     0x4  uart.o [1]
+  .noinit            uninit   0x4000c008     0x4  uart.o [1]
+  .noinit            uninit   0x4000c00c     0x1  uart.o [1]
+                            - 0x4000c00d     0x9
+
+Absolute sections, part 18 of 48:            0x1
+  .noinit            uninit   0x4000c014     0x1  uart.o [1]
+                            - 0x4000c015     0x1
+
+Absolute sections, part 19 of 48:            0x1
+  .noinit            uninit   0x4000c01c     0x1  uart.o [1]
+                            - 0x4000c01d     0x1
+
+Absolute sections, part 20 of 48:            0x1
+  .noinit            uninit   0x40010000     0x1  uart.o [1]
+                            - 0x40010001     0x1
+
+Absolute sections, part 21 of 48:            0x9
+  .noinit            uninit   0x40010004     0x4  uart.o [1]
+  .noinit            uninit   0x40010008     0x4  uart.o [1]
+  .noinit            uninit   0x4001000c     0x1  uart.o [1]
+                            - 0x4001000d     0x9
+
+Absolute sections, part 22 of 48:            0x1
+  .noinit            uninit   0x40010014     0x1  uart.o [1]
+                            - 0x40010015     0x1
+
+Absolute sections, part 23 of 48:            0x1
+  .noinit            uninit   0x4001001c     0x1  uart.o [1]
+                            - 0x4001001d     0x1
+
+Absolute sections, part 24 of 48:            0x4
+  .noinit            uninit   0x40024008     0x4  timedate.o [1]
+                            - 0x4002400c     0x4
+
+Absolute sections, part 25 of 48:           0x10
+  .noinit            uninit   0x40024020     0x4  timedate.o [1]
+  .noinit            uninit   0x40024024     0x4  timedate.o [1]
+  .noinit            uninit   0x40024028     0x4  timedate.o [1]
+  .noinit            uninit   0x4002402c     0x4  timedate.o [1]
+                            - 0x40024030    0x10
+
+Absolute sections, part 26 of 48:            0x8
+  .noinit            uninit   0x40024038     0x4  timedate.o [1]
+  .noinit            uninit   0x4002403c     0x4  timedate.o [1]
+                            - 0x40024040     0x8
+
+Absolute sections, part 27 of 48:           0x14
+  .noinit            uninit   0x4002c000     0x4  uart.o [1]
+  .noinit            uninit   0x4002c004     0x4  target.o [1]
+  .noinit            uninit   0x4002c008     0x4  target.o [1]
+  .noinit            uninit   0x4002c00c     0x4  target.o [1]
+  .noinit            uninit   0x4002c010     0x4  uart.o [1]
+                            - 0x4002c014    0x14
+
+Absolute sections, part 28 of 48:           0x10
+  .noinit            uninit   0x4002c01c     0x4  target.o [1]
+  .noinit            uninit   0x4002c020     0x4  target.o [1]
+  .noinit            uninit   0x4002c024     0x4  target.o [1]
+  .noinit            uninit   0x4002c028     0x4  target.o [1]
+                            - 0x4002c02c    0x10
+
+Absolute sections, part 29 of 48:           0x28
+  .noinit            uninit   0x4002c040     0x4  target.o [1]
+  .noinit            uninit   0x4002c044     0x4  target.o [1]
+  .noinit            uninit   0x4002c048     0x4  target.o [1]
+  .noinit            uninit   0x4002c04c     0x4  target.o [1]
+  .noinit            uninit   0x4002c050     0x4  target.o [1]
+  .noinit            uninit   0x4002c054     0x4  target.o [1]
+  .noinit            uninit   0x4002c058     0x4  target.o [1]
+  .noinit            uninit   0x4002c05c     0x4  target.o [1]
+  .noinit            uninit   0x4002c060     0x4  target.o [1]
+  .noinit            uninit   0x4002c064     0x4  target.o [1]
+                            - 0x4002c068    0x28
+
+Absolute sections, part 30 of 48:           0x14
+  .noinit            uninit   0x40030000     0x4  ads1232.o [1]
+  .noinit            uninit   0x40030004     0x4  ads1232.o [1]
+  .noinit            uninit   0x40030008     0x4  ads1232.o [1]
+  .noinit            uninit   0x4003000c     0x4  ads1232.o [1]
+  .noinit            uninit   0x40030010     0x4  ads1232.o [1]
+                            - 0x40030014    0x14
+
+Absolute sections, part 31 of 48:           0x14
+  .noinit            uninit   0x40088000     0x4  spi.o [1]
+  .noinit            uninit   0x40088004     0x4  spi.o [1]
+  .noinit            uninit   0x40088008     0x4  spi.o [1]
+  .noinit            uninit   0x4008800c     0x4  spi.o [1]
+  .noinit            uninit   0x40088010     0x4  spi.o [1]
+                            - 0x40088014    0x14
+
+Absolute sections, part 32 of 48:            0x1
+  .noinit            uninit   0x40098000     0x1  uart.o [1]
+                            - 0x40098001     0x1
+
+Absolute sections, part 33 of 48:            0x9
+  .noinit            uninit   0x40098004     0x4  uart.o [1]
+  .noinit            uninit   0x40098008     0x4  uart.o [1]
+  .noinit            uninit   0x4009800c     0x1  uart.o [1]
+                            - 0x4009800d     0x9
+
+Absolute sections, part 34 of 48:            0x1
+  .noinit            uninit   0x40098014     0x1  uart.o [1]
+                            - 0x40098015     0x1
+
+Absolute sections, part 35 of 48:            0x1
+  .noinit            uninit   0x4009801c     0x1  uart.o [1]
+                            - 0x4009801d     0x1
+
+Absolute sections, part 36 of 48:            0x1
+  .noinit            uninit   0x4009c000     0x1  uart.o [1]
+                            - 0x4009c001     0x1
+
+Absolute sections, part 37 of 48:            0x9
+  .noinit            uninit   0x4009c004     0x4  uart.o [1]
+  .noinit            uninit   0x4009c008     0x4  uart.o [1]
+  .noinit            uninit   0x4009c00c     0x1  uart.o [1]
+                            - 0x4009c00d     0x9
+
+Absolute sections, part 38 of 48:            0x1
+  .noinit            uninit   0x4009c014     0x1  uart.o [1]
+                            - 0x4009c015     0x1
+
+Absolute sections, part 39 of 48:            0x1
+  .noinit            uninit   0x4009c01c     0x1  uart.o [1]
+                            - 0x4009c01d     0x1
+
+Absolute sections, part 40 of 48:            0x4
+  .noinit            uninit   0x400fc000     0x4  target.o [1]
+                            - 0x400fc004     0x4
+
+Absolute sections, part 41 of 48:           0x10
+  .noinit            uninit   0x400fc080     0x4  target.o [1]
+  .noinit            uninit   0x400fc084     0x4  target.o [1]
+  .noinit            uninit   0x400fc088     0x4  target.o [1]
+  .noinit            uninit   0x400fc08c     0x4  target.o [1]
+                            - 0x400fc090    0x10
+
+Absolute sections, part 42 of 48:            0x4
+  .noinit            uninit   0x400fc0c4     0x4  timer.o [1]
+                            - 0x400fc0c8     0x4
+
+Absolute sections, part 43 of 48:            0x4
+  .noinit            uninit   0x400fc104     0x4  target.o [1]
+                            - 0x400fc108     0x4
+
+Absolute sections, part 44 of 48:            0x4
+  .noinit            uninit   0x400fc10c     0x4  target.o [1]
+                            - 0x400fc110     0x4
+
+Absolute sections, part 45 of 48:            0x4
+  .noinit            uninit   0x400fc1a0     0x4  target.o [1]
+                            - 0x400fc1a4     0x4
+
+Absolute sections, part 46 of 48:            0x8
+  .noinit            uninit   0x400fc1a8     0x4  target.o [1]
+  .noinit            uninit   0x400fc1ac     0x4  target.o [1]
+                            - 0x400fc1b0     0x8
+
+Absolute sections, part 47 of 48:            0x4
+  .noinit            uninit   0xe000e100     0x4  irq.o [1]
+                            - 0xe000e104     0x4
+
+Absolute sections, part 48 of 48:            0x4
+  .noinit            uninit   0xe000e280     0x4  irq.o [1]
+                            - 0xe000e284     0x4
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x18a2:
+          0x20000078  0x18a2
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x67 (85% of destination):
+          0x0000b19c    0x67
+    1 destination range, total size 0x78:
+          0x20000000    0x78
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data  rw data
+                                                        (abs)
+    ------                  -------  -------  -------  -------
+D:\01 Hamid Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815 Sir Lanka\128 Any Robin\124 Any 815 factory\GettingStarted\Production\Obj: [1]
+    FIR.o                       240    1 376      577
+    ads1232.o                   344                         20
+    audit.o                     248       16
+    calcmd.o                  8 008    1 264        8
+    checkweigh.o                  2
+    com_tic_read.o                2
+    cstartup_M.o                210
+    display.o                 1 708      110      142
+    filter.o                    824        8    1 152
+    flash.o                     576        8
+    globles.o                                   4 236
+    gpio.o                      468                 1        4
+    irq.o                       136      156                 8
+    keypad.o                    592                 5
+    keyscan.o                    92                          4
+    main.o                      200
+    menu.o                        2
+    motion.o                    124                 4
+    peakhold.o                  336                 8
+    printing.o                1 148       40
+    prncode.o                     2
+    spi.o                       108                         20
+    strings.o                 4 904      404       21        4
+    sys.o                     3 004       56        1
+    system_init.o             1 404
+    tare.o                      264       16
+    target.o                    800                        140
+    ticcode.o                 1 528       16       24
+    ticketedit.o                 14
+    timedate.o                1 200      268                28
+    timer.o                     792      140      188       52
+    uart.o                    1 824        4       24       60
+    units.o                   2 600
+    version control.o           400       21       24       16
+    weight.o                    904
+    zero.o                      932       16        7
+    ----------------------------------------------------------
+    Total:                   35 940    3 919    6 422      356
+
+command line: [2]
+    ----------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                       6
+    exit.o                        4
+    iar_Stoulx.o                372
+    labs.o                        8
+    low_level_init.o              4
+    sprintf.o                    64
+    tolower.o                    12
+    toupper.o                    12
+    xfail_s.o                    64                 4
+    xprintfsmall_nomb.o       1 236
+    xsprout.o                    10
+    ----------------------------------------------------------
+    Total:                    1 792                 4
+
+m7M_tl.a: [4]
+    DblAdd.o                    376
+    DblCmpEq.o                   32
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblSub.o                    210
+    DblToFlt.o                  104
+    DblToS32.o                   58
+    FltAdd.o                    214
+    FltCmpEq.o                   28
+    FltCmpGe.o                   36
+    FltCmpLe.o                   36
+    FltDiv.o                    252
+    FltMul.o                    216
+    FltSub.o                    128
+    FltToDbl.o                   72
+    FltToS32.o                   42
+    FltToU32.o                   34
+    S32ToDbl.o                   34
+    S32ToFlt.o                   36
+    U32ToFlt.o                   28
+    modf.o                      184
+    ----------------------------------------------------------
+    Total:                    3 212
+
+rt7M_tl.a: [5]
+    ABImemcpy.o                 134
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    data_init.o                  40
+    memchr.o                     88
+    packbits_init_single.o       56
+    strchr.o                     22
+    strcpy.o                     76
+    strlen.o                     54
+    zero_init3.o                 64
+    ----------------------------------------------------------
+    Total:                      586
+
+shb_l.a: [6]
+    ABIassert.o                  36
+    exit.o                       20
+    ----------------------------------------------------------
+    Total:                       56
+
+    Gaps                         28        6
+    Linker created                        32    1 024
+--------------------------------------------------------------
+    Grand Total:             41 614    3 957    7 450      356
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0000aa14          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0000aa34          --   Gb  - Linker created -
+?main                   0x0000ab15         Code  Gb  cmain.o [5]
+ACC                     0x2000187c   0x18  Data  Gb  ticcode.o [1]
+AD_average              0x0000398b  0x148  Code  Gb  filter.o [1]
+AD_average::avreg       0x20000f78  0x3fc  Data  Lc  filter.o [1]
+AD_average::avsmp       0x200018b4    0x4  Data  Lc  filter.o [1]
+AD_average::history     0x20001784   0x78  Data  Lc  filter.o [1]
+AD_average::threshold   0x200018b8    0x4  Data  Lc  filter.o [1]
+ADoffset_calibration    0x000076bf    0x8  Code  Gb  ads1232.o [1]
+AVERAGEprm              0x0000abb8   0x1c  Data  Gb  calcmd.o [1]
+BAUDprm                 0x0000ab9c   0x1c  Data  Gb  calcmd.o [1]
+BAUDstr                 0x0000a9cc   0x24  Data  Gb  calcmd.o [1]
+BEAT                    0x2000190b    0x1  Data  Gb  gpio.o [1]
+BITSprm                 0x0000ae58   0x10  Data  Gb  calcmd.o [1]
+BITSstr                 0x0000ad7c   0x14  Data  Gb  calcmd.o [1]
+CAL                     0x20000078  0xf00  Data  Gb  globles.o [1]
+CALIBprm                0x0000af18    0xc  Data  Gb  calcmd.o [1]
+CALIBstr                0x0000af24    0xc  Data  Gb  calcmd.o [1]
+CALPRM                  0x0000a880   0x40  Data  Gb  calcmd.o [1]
+CAL_ADaverage           0x00003ad3   0xb8  Code  Gb  filter.o [1]
+COM                     0x200015c0   0xb0  Data  Gb  globles.o [1]
+CORNERprm               0x0000ad90   0x14  Data  Gb  calcmd.o [1]
+CORNERstr               0x0000aca4   0x18  Data  Gb  calcmd.o [1]
+COUNTprm                0x0000aad4   0x20  Data  Gb  calcmd.o [1]
+COUNTstr                0x0000a068   0x2c  Data  Gb  calcmd.o [1]
+CSTACK$$Base            0x20001920          --   Gb  - Linker created -
+CSTACK$$Limit           0x20001d20          --   Gb  - Linker created -
+ConfigurePLL            0x00009f5f   0x10  Code  Gb  target.o [1]
+DEADmsg                 0x0000b058    0x8  Data  Gb  calcmd.o [1]
+DECprm                  0x0000ac44   0x18  Data  Gb  calcmd.o [1]
+DECstr                  0x0000aa34   0x20  Data  Gb  calcmd.o [1]
+DIGIT_TABLE             0x20000000   0x5c  Data  Gb  display.o [1]
+DISPLAY                 0x20001374   0x14  Data  Gb  globles.o [1]
+DISPLAY_RATEprm         0x0000acbc   0x18  Data  Gb  calcmd.o [1]
+DISPLAY_RATEstr         0x0000aab4   0x20  Data  Gb  calcmd.o [1]
+DONEmsg                 0x0000b050    0x8  Data  Gb  calcmd.o [1]
+DelayResolution100us    0x000044bd   0x20  Code  Gb  gpio.o [1]
+GFORCEprm               0x0000aee8    0xc  Data  Gb  calcmd.o [1]
+GFORCEstr               0x0000aef4    0xc  Data  Gb  calcmd.o [1]
+GPIOResetInit           0x00009dd7   0xb0  Code  Gb  target.o [1]
+GRADprm                 0x0000a7d4   0x24  Data  Gb  calcmd.o [1]
+InitClock               0x00009e87   0xd8  Code  Gb  target.o [1]
+KEY                     0x200018c8    0x4  Data  Gb  keypad.o [1]
+KEYSTATE                0x2000190c    0x1  Data  Gb  keypad.o [1]
+LAST_PEAK_WEIGHT        0x200018d0    0x4  Data  Lc  peakhold.o [1]
+LEGALprm                0x0000af00    0xc  Data  Gb  calcmd.o [1]
+LEGALstr                0x0000af0c    0xc  Data  Gb  calcmd.o [1]
+LoadInt                 0x00007c97   0x56  Code  Lc  xprintfsmall_nomb.o [3]
+MOTIprm                 0x0000ab64   0x1c  Data  Gb  calcmd.o [1]
+MOTIstr                 0x0000a984   0x24  Data  Gb  calcmd.o [1]
+MOTprm                  0x0000ab48   0x1c  Data  Gb  calcmd.o [1]
+MOTstr                  0x0000a960   0x24  Data  Gb  calcmd.o [1]
+NTAPS                   0x200018c0    0x4  Data  Gb  FIR.o [1]
+NVIC_ClrPend            0x000078d1   0x34  Code  Gb  irq.o [1]
+NVIC_IntEnable          0x0000789d   0x34  Code  Gb  irq.o [1]
+NVMEM                   0x2000182c   0x28  Data  Gb  globles.o [1]
+Output_Enable           0x000045eb   0x1a  Code  Gb  gpio.o [1]
+PEAKTprm                0x0000ab80   0x1c  Data  Gb  calcmd.o [1]
+PEAKTstr                0x0000a9a8   0x24  Data  Gb  calcmd.o [1]
+RAW_DISPLAY             0x200017fc   0x30  Data  Gb  display.o [1]
+Region$$Table$$Base     0x0000aa14          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000aa34          --   Gb  - Linker created -
+SCALE                   0x200016fc   0x88  Data  Gb  globles.o [1]
+SCLOVERprm              0x0000ac8c   0x18  Data  Gb  calcmd.o [1]
+SCLOVERstr              0x0000aa94   0x20  Data  Gb  calcmd.o [1]
+SENSprm                 0x0000abf0   0x1c  Data  Gb  calcmd.o [1]
+SPANmsg                 0x0000b060    0x8  Data  Gb  calcmd.o [1]
+SYSTEM                  0x20001894    0xc  Data  Gb  globles.o [1]
+Select_Digit            0x00004605   0x1e  Code  Gb  gpio.o [1]
+T0MR0                   0x40004018    0x4  Data  Gb  timer.o [1]
+T0PR                    0x4000400c    0x4  Data  Gb  timer.o [1]
+T1MR0                   0x40008018    0x4  Data  Gb  timer.o [1]
+T1PR                    0x4000800c    0x4  Data  Gb  timer.o [1]
+TAREprm                 0x0000ada4   0x14  Data  Gb  calcmd.o [1]
+TAREstr                 0x0000acd4   0x18  Data  Gb  calcmd.o [1]
+THRESHprm               0x0000abd4   0x1c  Data  Gb  calcmd.o [1]
+TICKET                  0x200018a0    0xc  Data  Gb  globles.o [1]
+TMR0_IRQHandler         0x00004aa7   0x26  Code  Gb  timer.o [1]
+TMR1_IRQHandler         0x00004acd   0x22  Code  Gb  timer.o [1]
+TargetInit              0x00009d49   0x8e  Code  Gb  target.o [1]
+TargetResetInit         0x00009f6f   0x4e  Code  Gb  target.o [1]
+U0RBRTHR                0x4000c000    0x1  Data  Gb  uart.o [1]
+U0SCR                   0x4000c01c    0x1  Data  Gb  uart.o [1]
+U0Status                0x20001913    0x1  Data  Gb  uart.o [1]
+U1RBRTHR                0x40010000    0x1  Data  Gb  uart.o [1]
+U1SCR                   0x4001001c    0x1  Data  Gb  uart.o [1]
+U1Status                0x20001914    0x1  Data  Gb  uart.o [1]
+U2RBRTHR                0x40098000    0x1  Data  Gb  uart.o [1]
+U2SCR                   0x4009801c    0x1  Data  Gb  uart.o [1]
+U2Status                0x20001915    0x1  Data  Gb  uart.o [1]
+U3RBRTHR                0x4009c000    0x1  Data  Gb  uart.o [1]
+U3SCR                   0x4009c01c    0x1  Data  Gb  uart.o [1]
+U3Status                0x20001916    0x1  Data  Gb  uart.o [1]
+UART0Status             0x200018f0    0x4  Data  Gb  uart.o [1]
+UART0TxEmpty            0x20000074    0x1  Data  Gb  uart.o [1]
+UART0_IRQHandler        0x00003d9d   0xca  Code  Gb  uart.o [1]
+UART1Status             0x200018f4    0x4  Data  Gb  uart.o [1]
+UART1TxEmpty            0x20000075    0x1  Data  Gb  uart.o [1]
+UART1_IRQHandler        0x00003e67   0xc2  Code  Gb  uart.o [1]
+UART2Status             0x200018f8    0x4  Data  Gb  uart.o [1]
+UART2TxEmpty            0x20000076    0x1  Data  Gb  uart.o [1]
+UART2_IRQHandler        0x00003f29   0xca  Code  Gb  uart.o [1]
+UART3Status             0x200018fc    0x4  Data  Gb  uart.o [1]
+UART3TxEmpty            0x20000077    0x1  Data  Gb  uart.o [1]
+UART3_IRQHandler        0x00003ff3   0xca  Code  Gb  uart.o [1]
+UARTDisable             0x000040bd   0xb4  Code  Gb  uart.o [1]
+UARTEnable              0x00004171   0x94  Code  Gb  uart.o [1]
+VALUE                   0x200018b0    0x4  Data  Gb  calcmd.o [1]
+ZERORANGEprm            0x0000ac74   0x18  Data  Gb  calcmd.o [1]
+ZERORANGEstr            0x0000aa74   0x20  Data  Gb  calcmd.o [1]
+ZEROTRKprm              0x0000ac5c   0x18  Data  Gb  calcmd.o [1]
+ZEROTRKstr              0x0000aa54   0x20  Data  Gb  calcmd.o [1]
+_A_CCLKCFG              0x400fc104    0x4  Data  Gb  target.o [1]
+_A_CLKSRCSEL            0x400fc10c    0x4  Data  Gb  target.o [1]
+_A_CLRPEND0             0xe000e280    0x4  Data  Gb  irq.o [1]
+_A_FIO0CLR              0x2009c01c    0x4  Data  Gb  uart.o [1]
+_A_FIO0DIR              0x2009c000    0x4  Data  Gb  target.o [1]
+_A_FIO0PIN              0x2009c014    0x4  Data  Gb  strings.o [1]
+_A_FIO0SET              0x2009c018    0x4  Data  Gb  version control.o [1]
+_A_FIO1CLR              0x2009c03c    0x4  Data  Gb  version control.o [1]
+_A_FIO1DIR              0x2009c020    0x4  Data  Gb  target.o [1]
+_A_FIO1PIN              0x2009c034    0x4  Data  Gb  keyscan.o [1]
+_A_FIO1SET              0x2009c038    0x4  Data  Gb  target.o [1]
+_A_FIO2DIR              0x2009c040    0x4  Data  Gb  target.o [1]
+_A_FIO2PIN              0x2009c054    0x4  Data  Gb  gpio.o [1]
+_A_FIO2SET              0x2009c058    0x4  Data  Gb  target.o [1]
+_A_FIO3CLR              0x2009c07c    0x4  Data  Gb  version control.o [1]
+_A_FIO3DIR              0x2009c060    0x4  Data  Gb  target.o [1]
+_A_FIO3SET              0x2009c078    0x4  Data  Gb  version control.o [1]
+_A_FIO4DIR              0x2009c080    0x4  Data  Gb  target.o [1]
+_A_FIO4SET              0x2009c098    0x4  Data  Gb  target.o [1]
+_A_FLASHCFG             0x400fc000    0x4  Data  Gb  target.o [1]
+_A_PCLKSEL0             0x400fc1a8    0x4  Data  Gb  target.o [1]
+_A_PCLKSEL1             0x400fc1ac    0x4  Data  Gb  target.o [1]
+_A_PCONP                0x400fc0c4    0x4  Data  Gb  timer.o [1]
+_A_PINMODE0             0x4002c040    0x4  Data  Gb  target.o [1]
+_A_PINMODE1             0x4002c044    0x4  Data  Gb  target.o [1]
+_A_PINMODE2             0x4002c048    0x4  Data  Gb  target.o [1]
+_A_PINMODE3             0x4002c04c    0x4  Data  Gb  target.o [1]
+_A_PINMODE4             0x4002c050    0x4  Data  Gb  target.o [1]
+_A_PINMODE5             0x4002c054    0x4  Data  Gb  target.o [1]
+_A_PINMODE6             0x4002c058    0x4  Data  Gb  target.o [1]
+_A_PINMODE7             0x4002c05c    0x4  Data  Gb  target.o [1]
+_A_PINMODE8             0x4002c060    0x4  Data  Gb  target.o [1]
+_A_PINMODE9             0x4002c064    0x4  Data  Gb  target.o [1]
+_A_PINSEL0              0x4002c000    0x4  Data  Gb  uart.o [1]
+_A_PINSEL1              0x4002c004    0x4  Data  Gb  target.o [1]
+_A_PINSEL10             0x4002c028    0x4  Data  Gb  target.o [1]
+_A_PINSEL2              0x4002c008    0x4  Data  Gb  target.o [1]
+_A_PINSEL3              0x4002c00c    0x4  Data  Gb  target.o [1]
+_A_PINSEL4              0x4002c010    0x4  Data  Gb  uart.o [1]
+_A_PINSEL7              0x4002c01c    0x4  Data  Gb  target.o [1]
+_A_PINSEL8              0x4002c020    0x4  Data  Gb  target.o [1]
+_A_PINSEL9              0x4002c024    0x4  Data  Gb  target.o [1]
+_A_PLL0CFG              0x400fc084    0x4  Data  Gb  target.o [1]
+_A_PLL0CON              0x400fc080    0x4  Data  Gb  target.o [1]
+_A_PLL0FEED             0x400fc08c    0x4  Data  Gb  target.o [1]
+_A_PLL0STAT             0x400fc088    0x4  Data  Gb  target.o [1]
+_A_RTCCCR               0x40024008    0x4  Data  Gb  timedate.o [1]
+_A_RTCDOM               0x4002402c    0x4  Data  Gb  timedate.o [1]
+_A_RTCHOUR              0x40024028    0x4  Data  Gb  timedate.o [1]
+_A_RTCMIN               0x40024024    0x4  Data  Gb  timedate.o [1]
+_A_RTCMONTH             0x40024038    0x4  Data  Gb  timedate.o [1]
+_A_RTCSEC               0x40024020    0x4  Data  Gb  timedate.o [1]
+_A_RTCYEAR              0x4002403c    0x4  Data  Gb  timedate.o [1]
+_A_SCS                  0x400fc1a0    0x4  Data  Gb  target.o [1]
+_A_SETENA0              0xe000e100    0x4  Data  Gb  irq.o [1]
+_A_SSP0CPSR             0x40088010    0x4  Data  Gb  spi.o [1]
+_A_SSP0CR0              0x40088000    0x4  Data  Gb  spi.o [1]
+_A_SSP0CR1              0x40088004    0x4  Data  Gb  spi.o [1]
+_A_SSP0DR               0x40088008    0x4  Data  Gb  spi.o [1]
+_A_SSP0SR               0x4008800c    0x4  Data  Gb  spi.o [1]
+_A_SSP1CPSR             0x40030010    0x4  Data  Gb  ads1232.o [1]
+_A_SSP1CR0              0x40030000    0x4  Data  Gb  ads1232.o [1]
+_A_SSP1CR1              0x40030004    0x4  Data  Gb  ads1232.o [1]
+_A_SSP1DR               0x40030008    0x4  Data  Gb  ads1232.o [1]
+_A_SSP1SR               0x4003000c    0x4  Data  Gb  ads1232.o [1]
+_A_T0CTCR               0x40004070    0x4  Data  Gb  timer.o [1]
+_A_T0IR                 0x40004000    0x4  Data  Gb  timer.o [1]
+_A_T0MCR                0x40004014    0x4  Data  Gb  timer.o [1]
+_A_T0TCR                0x40004004    0x4  Data  Gb  timer.o [1]
+_A_T1CTCR               0x40008070    0x4  Data  Gb  timer.o [1]
+_A_T1IR                 0x40008000    0x4  Data  Gb  timer.o [1]
+_A_T1MCR                0x40008014    0x4  Data  Gb  timer.o [1]
+_A_T1TCR                0x40008004    0x4  Data  Gb  timer.o [1]
+_A_U0FCR                0x4000c008    0x4  Data  Gb  uart.o [1]
+_A_U0IER                0x4000c004    0x4  Data  Gb  uart.o [1]
+_A_U0LCR                0x4000c00c    0x1  Data  Gb  uart.o [1]
+_A_U0LSR                0x4000c014    0x1  Data  Gb  uart.o [1]
+_A_U1FCR                0x40010008    0x4  Data  Gb  uart.o [1]
+_A_U1IER                0x40010004    0x4  Data  Gb  uart.o [1]
+_A_U1LCR                0x4001000c    0x1  Data  Gb  uart.o [1]
+_A_U1LSR                0x40010014    0x1  Data  Gb  uart.o [1]
+_A_U2FCR                0x40098008    0x4  Data  Gb  uart.o [1]
+_A_U2IER                0x40098004    0x4  Data  Gb  uart.o [1]
+_A_U2LCR                0x4009800c    0x1  Data  Gb  uart.o [1]
+_A_U2LSR                0x40098014    0x1  Data  Gb  uart.o [1]
+_A_U3FCR                0x4009c008    0x4  Data  Gb  uart.o [1]
+_A_U3IER                0x4009c004    0x4  Data  Gb  uart.o [1]
+_A_U3LCR                0x4009c00c    0x1  Data  Gb  uart.o [1]
+_A_U3LSR                0x4009c014    0x1  Data  Gb  uart.o [1]
+_LitobSmallNoMb         0x00007e29   0xce  Code  Lc  xprintfsmall_nomb.o [3]
+_PrintfSmallNoMb        0x00007a75  0x216  Code  Gb  xprintfsmall_nomb.o [3]
+_PutcharsSmallNoMb      0x00007ef7   0x2e  Code  Lc  xprintfsmall_nomb.o [3]
+_PutfldSmallNoMb        0x00007ced  0x13c  Code  Lc  xprintfsmall_nomb.o [3]
+_SProut                 0x0000580b    0xa  Code  Gb  xsprout.o [3]
+__aeabi_assert          0x00009c09   0x24  Code  Gb  ABIassert.o [6]
+__aeabi_cdcmpeq         0x00005815         Code  Gb  DblCmpEq.o [4]
+__aeabi_cdcmple         0x000076f5         Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x00009b05         Code  Gb  DblCmpGe.o [4]
+__aeabi_cfcmpeq         0x000057cd         Code  Gb  FltCmpEq.o [4]
+__aeabi_cfcmple         0x000069fd         Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x00005e21         Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x00006995         Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x00006911         Code  Gb  DblToS32.o [4]
+__aeabi_dadd            0x00007725         Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x00005835         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x00005b35         Code  Gb  DblMul.o [4]
+__aeabi_f2d             0x0000694d         Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x00005cd9         Code  Gb  FltToS32.o [4]
+__aeabi_f2uiz           0x00005dfd         Code  Gb  FltToU32.o [4]
+__aeabi_fdiv            0x000032fd         Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x00005491         Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x00005e45         Code  Gb  FltSub.o [4]
+__aeabi_i2d             0x000057e9         Code  Gb  S32ToDbl.o [4]
+__aeabi_i2f             0x00005569         Code  Gb  S32ToFlt.o [4]
+__aeabi_memcpy4         0x00007925         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x00007925         Code  Gb  ABImemcpy.o [5]
+__aeabi_ui2f            0x00005475         Code  Gb  U32ToFlt.o [4]
+__cmain                 0x0000ab15         Code  Gb  cmain.o [5]
+__exit                  0x00009d35   0x14  Code  Gb  exit.o [6]
+__iar_Fail_s            0x00009c45   0x1c  Code  Gb  xfail_s.o [3]
+__iar_Memchr            0x00009cbd         Code  Gb  memchr.o [5]
+__iar_Stoulx            0x0000806d  0x114  Code  Gb  iar_Stoulx.o [3]
+__iar_Strchr            0x00009c2d         Code  Gb  strchr.o [5]
+__iar_dadd              0x00009b35         Code  Gb  DblSub.o [4]
+__iar_data_init3        0x0000a939   0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x00007735         Code  Gb  DblAdd.o [4]
+__iar_dsubStart         0x00007747         Code  Gb  DblAdd.o [4]
+__iar_fadd              0x00005e51         Code  Gb  FltSub.o [4]
+__iar_fsub              0x00007f49         Code  Gb  FltAdd.o [4]
+__iar_fsubStart         0x00007f59         Code  Gb  FltAdd.o [4]
+__iar_modf              0x00005a8d         Code  Gb  modf.o [4]
+__iar_modf64            0x00005a7d         Code  Gb  modf.o [4]
+__iar_modfl             0x00005a8d         Code  Gb  modf.o [4]
+__iar_packbits_init_single3
+                        0x0000a901   0x38  Code  Gb  packbits_init_single.o [5]
+__iar_program_start     0x0000af3d         Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x0000a8c1   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0000ab33    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000         Data  Gb  cstartup_M.o [1]
+__vector_table_0x1c     0x0000001c         Data  Gb  cstartup_M.o [1]
+_call_main              0x0000ab21         Code  Gb  cmain.o [5]
+_exit                   0x0000ab3d         Code  Gb  cexit.o [5]
+_main                   0x0000ab2f         Code  Gb  cmain.o [5]
+abort                   0x00009d2f    0x6  Code  Gb  abort.o [3]
+atol                    0x00008187    0x2  Code  Gb  iar_Stoulx.o [3]
+build_menu              0x00006907    0x2  Code  Gb  menu.o [1]
+cSETBIT7                0x20001908    0x1  Data  Gb  display.o [1]
+calc_centerofzero       0x00002cf5   0x20  Code  Gb  zero.o [1]
+calc_scaleover          0x00003283   0x5e  Code  Gb  weight.o [1]
+calc_zerorange          0x00002c97   0x5e  Code  Gb  zero.o [1]
+calculate_targets       0x00007599    0x2  Code  Gb  checkweigh.o [1]
+calibration_command     0x000000cd  0xc38  Code  Gb  calcmd.o [1]
+canprint                0x000067ff   0x1c  Code  Gb  printing.o [1]
+change_clock            0x000061fb   0x26  Code  Gb  timedate.o [1]
+change_date             0x0000616b   0x90  Code  Gb  timedate.o [1]
+change_time             0x000060bf   0xac  Code  Gb  timedate.o [1]
+clear_tare              0x00005f59   0x64  Code  Gb  tare.o [1]
+countdown               0x00003c2d   0x58  Code  Gb  filter.o [1]
+countdown::cdown        0x200018bc    0x4  Data  Lc  filter.o [1]
+crc16                   0x00005dc3   0x26  Code  Gb  audit.o [1]
+cycle_display           0x000037db  0x14c  Code  Gb  system_init.o [1]
+dTIMERTICS              0x200018ec    0x4  Data  Lc  timer.o [1]
+deadload_scale          0x00001af1  0x114  Code  Gb  calcmd.o [1]
+digits                  0x00008190   0x28  Data  Lc  iar_Stoulx.o [3]
+display_audit           0x00005d05   0x9a  Code  Gb  audit.o [1]
+display_grams           0x000073ad   0x4c  Code  Gb  units.o [1]
+display_kilos           0x00006b71  0x256  Code  Gb  units.o [1]
+display_long_ton        0x000074d9   0x78  Code  Gb  units.o [1]
+display_message         0x000029dd   0x5e  Code  Gb  sys.o [1]
+display_ounce           0x00006fe9  0x3c4  Code  Gb  units.o [1]
+display_pounds          0x00006dc7  0x222  Code  Gb  units.o [1]
+display_short_ton       0x00007461   0x78  Code  Gb  units.o [1]
+display_test            0x00004eb9   0x4a  Code  Gb  display.o [1]
+display_ton             0x000073f9   0x68  Code  Gb  units.o [1]
+display_version         0x00004691  0x104  Code  Gb  version control.o [1]
+displayvalue            0x00002a3b   0xf2  Code  Gb  sys.o [1]
+echo_comport            0x00004205    0x2  Code  Gb  uart.o [1]
+enable_timer            0x00004821   0x1a  Code  Gb  timer.o [1]
+enter_cal               0x00001cfd  0x124  Code  Gb  calcmd.o [1]
+erase_flash_sector      0x0000573b   0x2c  Code  Gb  flash.o [1]
+exit                    0x0000ab37    0x4  Code  Gb  exit.o [3]
+exit_cal                0x00001e6d   0xc0  Code  Gb  calcmd.o [1]
+extract_digits          0x00006451   0x2c  Code  Gb  timedate.o [1]
+factory_init            0x00003503  0x2d8  Code  Gb  system_init.o [1]
+filter_enable           0x2000190a    0x1  Data  Lc  FIR.o [1]
+filter_preset           0x00003b8b   0xa2  Code  Gb  filter.o [1]
+fir_filter              0x00003cad   0x6c  Code  Gb  FIR.o [1]
+format_date             0x00006081   0x3e  Code  Gb  timedate.o [1]
+format_deadzero         0x00006891   0x20  Code  Gb  printing.o [1]
+format_string           0x00006677   0xd6  Code  Gb  printing.o [1]
+format_time             0x00005fd7   0xaa  Code  Gb  timedate.o [1]
+format_weight           0x00003033  0x250  Code  Gb  weight.o [1]
+get_index               0x00008755   0x22  Code  Gb  ticcode.o [1]
+get_key                 0x00007a19   0x5c  Code  Gb  keyscan.o [1]
+get_weight              0x00002f75   0xbe  Code  Gb  weight.o [1]
+gspanedit               0x00001f39   0x52  Code  Gb  calcmd.o [1]
+h                       0x200018c4    0x4  Data  Gb  FIR.o [1]
+h1                      0x0000a7f8   0x88  Data  Gb  FIR.o [1]
+h2                      0x0000a488   0xe8  Data  Gb  FIR.o [1]
+h3                      0x0000a2d0  0x1b8  Data  Gb  FIR.o [1]
+h4                      0x0000a098  0x238  Data  Gb  FIR.o [1]
+hello                   0x2000006c    0x8  Data  Gb  version control.o [1]
+init_VIC                0x00007915   0x10  Code  Gb  irq.o [1]
+init_ads1232            0x00007677   0x48  Code  Gb  ads1232.o [1]
+init_clock              0x00005fcd    0xa  Code  Gb  timedate.o [1]
+init_com0               0x00004207   0x7e  Code  Gb  uart.o [1]
+init_com1               0x00004305   0x80  Code  Gb  uart.o [1]
+init_com2               0x00004285   0x80  Code  Gb  uart.o [1]
+init_relays             0x000044dd   0x18  Code  Gb  gpio.o [1]
+init_scale              0x000033f9  0x10a  Code  Gb  system_init.o [1]
+init_timer0             0x0000483b   0xb8  Code  Gb  timer.o [1]
+init_timer1             0x000048f3   0x98  Code  Gb  timer.o [1]
+initialize_FIR          0x00003d19   0x64  Code  Gb  FIR.o [1]
+isCOMready              0x00004385   0x46  Code  Gb  uart.o [1]
+lTIMERTICS              0x200018ac    0x4  Data  Lc  calcmd.o [1]
+lTIMERTICS              0x200018e8    0x4  Data  Lc  timer.o [1]
+lTIMEVALUE              0x0000a748   0x8c  Data  Gb  timer.o [1]
+labs                    0x00006909    0x8  Code  Gb  labs.o [3]
+lasttimeA               0x20001670   0x8c  Data  Lc  timer.o [1]
+lasttimeB               0x20001854   0x28  Data  Lc  timer.o [1]
+latchbankA              0x000045c1   0x1a  Code  Gb  gpio.o [1]
+load_nvm                0x00005767   0x42  Code  Gb  flash.o [1]
+main                    0x0000a571   0xc8  Code  Gb  main.o [1]
+memchr                  0x00009cbd         Code  Gb  memchr.o [5]
+menuselect              0x0000117f  0x108  Code  Gb  calcmd.o [1]
+message                 0x2000005c    0x8  Data  Gb  version control.o [1]
+model                   0x20000064    0x8  Data  Gb  version control.o [1]
+modf                    0x00005a7d         Code  Gb  modf.o [4]
+modfl                   0x00005a7d         Code  Gb  modf.o [4]
+motion                  0x0000a639   0x7c  Code  Gb  motion.o [1]
+motion::lastweight      0x200018cc    0x4  Data  Lc  motion.o [1]
+motion_timer            0x00004a07   0x38  Code  Gb  timer.o [1]
+ndigs                   0x000081b8   0x28  Data  Lc  iar_Stoulx.o [3]
+option_select_count     0x00000f2d  0x168  Code  Gb  calcmd.o [1]
+optionselect            0x000010e1   0x9e  Code  Gb  calcmd.o [1]
+output_display          0x00004b39   0x3c  Code  Gb  display.o [1]
+parameter_entry         0x00002325  0x458  Code  Gb  sys.o [1]
+peak_timer              0x00004a3f   0x3a  Code  Gb  timer.o [1]
+piece_scale             0x00001c05   0xf8  Code  Gb  calcmd.o [1]
+platter_tare            0x00005ec5   0x94  Code  Gb  tare.o [1]
+poll_com_port1          0x00009711  0x104  Code  Gb  strings.o [1]
+poll_com_port1::debounce
+                        0x200018dc    0x4  Data  Lc  strings.o [1]
+poll_com_port1::state   0x2000190d    0x1  Data  Lc  strings.o [1]
+poll_com_port2          0x00009981   0xe6  Code  Gb  strings.o [1]
+poll_com_port2::debounce
+                        0x200018e4    0x4  Data  Lc  strings.o [1]
+poll_com_port2::state   0x20001911    0x1  Data  Lc  strings.o [1]
+poll_com_port3          0x00009829  0x150  Code  Gb  strings.o [1]
+poll_com_port3::address
+                        0x2000190f    0x1  Data  Lc  strings.o [1]
+poll_com_port3::debounce
+                        0x200018e0    0x4  Data  Lc  strings.o [1]
+poll_com_port3::idflag  0x20001910    0x1  Data  Lc  strings.o [1]
+poll_com_port3::state   0x2000190e    0x1  Data  Lc  strings.o [1]
+power_up_izsm           0x00002dbb   0xe2  Code  Gb  zero.o [1]
+power_up_izsm::IZSM     0x20001918    0x1  Data  Lc  zero.o [1]
+print                   0x0000654d  0x12a  Code  Gb  printing.o [1]
+print_ticket            0x0000647d   0xd0  Code  Gb  printing.o [1]
+printer_control         0x000087d9    0x2  Code  Gb  prncode.o [1]
+prm_scroll              0x00000d1d  0x1de  Code  Gb  calcmd.o [1]
+process_COM_xmit        0x000093a9   0xc8  Code  Gb  strings.o [1]
+process_outputstream0   0x0000950f   0x96  Code  Gb  strings.o [1]
+process_outputstream1   0x000095a9   0x96  Code  Gb  strings.o [1]
+process_outputstream2   0x00009479   0x96  Code  Gb  strings.o [1]
+process_peakhold        0x00006a21  0x13c  Code  Gb  peakhold.o [1]
+process_peakhold::state
+                        0x200018d4    0x4  Data  Lc  peakhold.o [1]
+process_serial_poll_commands
+                        0x00009071  0x32c  Code  Gb  strings.o [1]
+pushbutton_zero         0x00002e9d   0xa2  Code  Gb  zero.o [1]
+pushbutton_zero::ZSM    0x20001919    0x1  Data  Lc  zero.o [1]
+readAD                  0x0000759d   0xda  Code  Gb  ads1232.o [1]
+read_COM_RX             0x000043cb   0x2c  Code  Gb  uart.o [1]
+read_COM_level          0x00009a6d   0x40  Code  Gb  strings.o [1]
+read_calibration        0x000055e3   0x22  Code  Gb  flash.o [1]
+read_circular_flash     0x000056d9   0x36  Code  Gb  flash.o [1]
+read_legal              0x000045db   0x10  Code  Gb  gpio.o [1]
+read_zero_data          0x00005621   0x48  Code  Gb  flash.o [1]
+recevie_comport         0x000045bf    0x2  Code  Gb  gpio.o [1]
+refresh_ACC             0x0000877d   0x3a  Code  Gb  ticcode.o [1]
+refresh_timer           0x000049cd   0x3a  Code  Gb  timer.o [1]
+relays_function         0x000044f5   0xca  Code  Gb  gpio.o [1]
+scale_status            0x00004c9b  0x21e  Code  Gb  display.o [1]
+scan_AD                 0x00003975   0x16  Code  Gb  filter.o [1]
+scan_keypad             0x000051e5  0x250  Code  Gb  keypad.o [1]
+scan_system             0x0000277d  0x260  Code  Gb  sys.o [1]
+searchticket            0x000068fd    0x6  Code  Gb  ticketedit.o [1]
+sec_hand                0x20001904    0x4  Data  Lc  xfail_s.o [3]
+send_digit              0x00005187   0x32  Code  Gb  display.o [1]
+set_trkval              0x00002d15   0x50  Code  Gb  zero.o [1]
+span_scale              0x000012d1  0x19c  Code  Gb  calcmd.o [1]
+span_scale_linear       0x00001499  0x652  Code  Gb  calcmd.o [1]
+spanedit                0x00001e21   0x36  Code  Gb  calcmd.o [1]
+spi_init                0x000079ad   0x34  Code  Gb  spi.o [1]
+spi_output              0x000079eb   0x10  Code  Gb  spi.o [1]
+spi_write8bits          0x000079e1    0xa  Code  Gb  spi.o [1]
+sprintf                 0x00005435   0x40  Code  Gb  sprintf.o [3]
+status_light            0x00004623   0x40  Code  Gb  gpio.o [1]
+storezero               0x00005605   0x1c  Code  Gb  flash.o [1]
+strchr                  0x00009c2d         Code  Gb  strchr.o [5]
+strcpy                  0x00008021         Code  Gb  strcpy.o [5]
+stringformat            0x000087dd  0x880  Code  Gb  strings.o [1]
+stringformat::TIMERCOUNT
+                        0x200018d8    0x4  Data  Lc  strings.o [1]
+strlen                  0x00009c85         Code  Gb  strlen.o [5]
+ticket_control          0x000081e1  0x574  Code  Gb  ticcode.o [1]
+ticket_download         0x00009d2d    0x2  Code  Gb  com_tic_read.o [1]
+ticket_editor           0x00006903    0x4  Code  Gb  ticketedit.o [1]
+ticketbuffer            0x000068f9    0x4  Code  Gb  ticketedit.o [1]
+time_date_edit          0x00006221  0x1b6  Code  Gb  timedate.o [1]
+timer                   0x0000498b   0x42  Code  Gb  timer.o [1]
+toggle_units            0x00002b2d   0x60  Code  Gb  sys.o [1]
+tolower                 0x00009d21    0xc  Code  Gb  tolower.o [3]
+toupper                 0x00009d15    0xc  Code  Gb  toupper.o [3]
+track_timer             0x00004a79   0x2e  Code  Gb  timer.o [1]
+transmit_digits         0x00004f03  0x284  Code  Gb  display.o [1]
+unlock_flash_sector     0x0000570f   0x2c  Code  Gb  flash.o [1]
+update_bar_graph        0x00004b75   0xea  Code  Gb  display.o [1]
+update_bar_graph::blink
+                        0x20001909    0x1  Data  Lc  display.o [1]
+update_checksum         0x00005d9f   0x24  Code  Gb  audit.o [1]
+update_display          0x00002015  0x30a  Code  Gb  sys.o [1]
+update_display::flag    0x20001912    0x1  Data  Lc  sys.o [1]
+update_status           0x00004c5f   0x3c  Code  Gb  display.o [1]
+warmup_test             0x00004795   0x66  Code  Gb  version control.o [1]
+write_COM_TX            0x000043f7   0x1a  Code  Gb  uart.o [1]
+write_calibration       0x0000558d   0x56  Code  Gb  flash.o [1]
+write_circular_flash    0x00005669   0x70  Code  Gb  flash.o [1]
+xmit_units              0x0000683d   0x54  Code  Gb  printing.o [1]
+xmitchar                0x0000674d   0xb2  Code  Gb  printing.o [1]
+xmitport                0x00009649   0xb8  Code  Gb  strings.o [1]
+xmitstring              0x0000681b   0x22  Code  Gb  printing.o [1]
+z                       0x20001388  0x238  Data  Lc  FIR.o [1]
+zero_scale              0x00002d65   0x56  Code  Gb  zero.o [1]
+zero_tracking           0x00002bd1   0xc6  Code  Gb  zero.o [1]
+zero_tracking::lastAD   0x20001900    0x4  Data  Lc  zero.o [1]
+zero_tracking::tracking
+                        0x20001917    0x1  Data  Lc  zero.o [1]
+
+
+[1] = D:\01 Hamid Projects\2021 Anyload Indicator 815TS\Software Development\129 Any 815 Sir Lanka\128 Any Robin\124 Any 815 factory\GettingStarted\Production\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  41 614 bytes of readonly  code memory
+   3 957 bytes of readonly  data memory
+   7 450 bytes of readwrite data memory (+ 356 absolute)
+
+Errors: none
+Warnings: none
