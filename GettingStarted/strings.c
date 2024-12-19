@@ -249,11 +249,13 @@ if (weight==0)  // if the scale is zero check if we have to insert deadzeros
                 // DF1500 string ------------------------------------------------------------------------------- 
              if(port ==_PORT2)
              {
-            sprintf(outstring,"%c%c%c %c%c%7.7s %s %s %c%c%c",0x01,address,0x03,0x02,polarity,wstring,units,mode,status,0x0d,0x0a);
+            sprintf(outstring,"%c%c %c%c%7.7s %s %s %c%c%c",0x03,address,0x02,polarity,wstring,units,mode,status,0x0d,0x0a);
              }
              else
              {
-              sprintf(outstring,"%c%c%7.7s %s %s %c%c%c",0x02,polarity,wstring,units,mode,status,0x0d,0x0a);   
+              sprintf(outstring,"%c%c%7.7s %s %s %c%c%c",0x02,polarity,wstring,units,mode,status,0x0d,0x0a);  
+
+
              }
            break;
           }
